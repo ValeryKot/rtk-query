@@ -1,5 +1,4 @@
 import {configureStore} from '@reduxjs/toolkit';
-import {getDefaultNormalizer} from '@testing-library/react';
 import {goodsApi} from './goodsApi';
 
 export const store = configureStore({
